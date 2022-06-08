@@ -1,0 +1,14 @@
+[package]
+name = "atomic-triple-buffer"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "lib.rs"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+bitfield = "0.13.2"
